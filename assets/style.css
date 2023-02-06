@@ -209,6 +209,12 @@ body {
 #contact .container {
 	display: flex;
 }
+
+.picture.right{
+	width: 374px;
+	height: 329px;
+}
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
