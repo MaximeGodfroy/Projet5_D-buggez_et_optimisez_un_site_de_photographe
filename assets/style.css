@@ -54,6 +54,11 @@ body {
 	position: relative;
 }
 
+.picture.left{
+	width: 374px;
+	height: 329px;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -73,7 +78,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
