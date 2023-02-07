@@ -56,11 +56,6 @@ body {
 	min-height: 740px;
 }
 
-.picture.left{
-	max-width: 100%;
-	max-height: 100%;
-}
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -78,9 +73,6 @@ body {
 	z-index: 0;
 }
 
-.picture img {
-	width: 100%;
-}
 #about-me {
 	min-height: 380px;
 	flex: 2
@@ -213,11 +205,6 @@ body {
 	display: flex;
 }
 
-.picture.right{
-	max-width: 100%;
-	max-height: 100%;
-}
-
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -265,6 +252,7 @@ input[type="submit"] {
 	.picture {
 		flex : 2;
 		width: 200px;
+		height: 200px;
 	}
 	#about, #contact .container {
 		align-items: center;
@@ -283,8 +271,9 @@ input[type="submit"] {
 		flex-direction: column;
 
 	}
-	.picture {
+	.picture img {
 		width: 200px;
+		height: 200px;
 	}
 	.picture.left::before {
 		width: 100%;
@@ -377,8 +366,9 @@ input[type="submit"] {
 	form {
 		width: 100%;
 	}
-	.picture {
+	.picture img {
 		width: 200px;
+		height: 200px;
 	}
 }
 
