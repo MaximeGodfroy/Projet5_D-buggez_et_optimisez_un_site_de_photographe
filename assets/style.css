@@ -42,6 +42,11 @@ body {
 	width: 20px;
 }
 
+#header {
+	height: 890px;
+	background-color: #F6D2B8;
+}
+
 .carousel-item img {
 	width: 100%;
 	height: auto;
@@ -248,11 +253,20 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+@media all and (max-width: 1500px) {
+	#header {
+		height: 695px;
+	}
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
 		width: 200px;
 		height: 200px;
+	}
+	#header {
+		height: 550px;
 	}
 	#about, #contact .container {
 		align-items: center;
@@ -284,7 +298,9 @@ input[type="submit"] {
 		left: 0;
 		z-index: -1;
 	}
-
+	#header {
+		height: 460px;
+	}
 	#about{
 		padding-bottom: 45px;
 		padding-top: 45px;
@@ -337,6 +353,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+	#header {
+		height: 300px;
+	}
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
