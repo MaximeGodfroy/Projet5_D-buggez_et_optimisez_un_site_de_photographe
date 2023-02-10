@@ -261,9 +261,3 @@
     }
   };
 })(jQuery);
-
-/*
-document.getElementsByTagName("form").onsubmit = function(e) {
-  e.preventDefault();
-}
-*/
